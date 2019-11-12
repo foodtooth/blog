@@ -2,7 +2,7 @@ baseurl = "https://foodtooth.github.io/"
 languagecode = "en"
 languagename = "English"
 defaultcontentlanguage = "en"
-title = "About"
+title = "foodtooth"
 theme = "hugo-coder"
 
 paginate = 20
@@ -23,8 +23,8 @@ hasCJKLanguage = true
     description = "foodtooth's personal website"
     keywords = "blog,developer,personal"
     info = "Dev"
-#    avatarurl = "images/avatar.jpg"
-    footercontent = "Hi there, I'm footer."
+    avatarurl = "https://i.imgur.com/sjInPkX.jpg"
+    footercontent = "底线之上"
 
     dateformat = "January 2, 2006"
 
@@ -69,13 +69,17 @@ hasCJKLanguage = true
     series = "series"
     tag = "tags"
 
+[[menu.main]]
+name = "About"
+weight = 1
+url = "/about/"
 
 [[menu.main]]
 name = "Blog"
-weight = 1
+weight = 2
 url = "/posts/"
 
 [[menu.main]]
 name = "Projects"
-weight = 2
+weight = 3
 url = "/projects/"
