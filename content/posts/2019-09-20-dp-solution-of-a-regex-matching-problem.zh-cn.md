@@ -9,6 +9,7 @@ categories = ["leetcode"]
 externalLink = ""
 series = ["leetcode"]
 math = "true"
+isCJKLanguage = true
 +++
 
 ## 题目

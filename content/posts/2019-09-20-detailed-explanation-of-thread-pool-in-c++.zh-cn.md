@@ -8,6 +8,7 @@ tags = ["c++","thread pool"]
 categories = ["c++"]
 externalLink = ""
 series = []
+isCJKLanguage = true
 +++
 
 ## 关于[Thread pool][Thread pool wiki]

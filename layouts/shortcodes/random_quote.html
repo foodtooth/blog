@@ -1,0 +1,23 @@
+{{ range .Site.Data.quotes }}
+{{ shuffle (seq 1 5) }}
+{{ range.entries | shuffle | first 1 }}
+<li>{{ . }}</li>
+{{ end }}
+{{ end }}
+
+<script>
+    function randomQuote() {
+        const Joke = [
+            'Joke1',
+            'Joke2',
+            'Joke3',
+            'Joke4',
+            'Joke5',
+            'Joke6'
+        ];
+        const Pick = Math.floor(Math.random() * Joke.length);
+        document.write(Joke[Pick]);
+    }
+
+    document.addEventListener("load", randomQuote);
+</script>

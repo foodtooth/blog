@@ -1,0 +1,18 @@
+entries:
+  - content: >
+      For now, suffice it to say that because the source code was widely available, various organizations developed
+      their own (incompatible) versions, which led to chaos. Two major versions developed, System V, from AT&T, and BSD
+      (Berkeley Software Distribution) from the University of California at Berkeley. These had minor variants as well.
+      To make it possible to write programs that could run on any UNIX system, IEEE developed a standard for UNIX, called
+      POSIX, that most versions of UNIX now support. POSIX defines a minimal system-call interface that conformant UNIX
+      systems must support. In fact, some other operating systems now also support the POSIX interface.
+    credit:
+      Andrew S. Tanenbaum
+    origin:
+      Modern Operating Systems
+
+  - content:
+      What I cannot create, I do not understand.
+    credit:
+      Richard Feynman
+    origin:

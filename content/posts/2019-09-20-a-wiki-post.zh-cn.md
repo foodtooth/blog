@@ -8,6 +8,7 @@ tags = ["wiki","game"]
 categories = ["wiki"]
 externalLink = ""
 series = ["仙剑奇侠传"]
+isCJKLanguage = true
 +++
 
 ## 完整流程攻略

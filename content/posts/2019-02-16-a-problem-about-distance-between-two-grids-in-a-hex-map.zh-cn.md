@@ -8,6 +8,7 @@ tags = ["hexagon","hex map"]
 categories = []
 externalLink = ""
 series = []
+isCJKLanguage = true
 +++
 
 ## 题目是
