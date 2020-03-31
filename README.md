@@ -7,5 +7,5 @@ git submodule update --recursive --remote
 
 ## Build
 ```bash
-hugo serve
+hugo serve -D
 ```
