@@ -6,13 +6,9 @@ entries:
       To make it possible to write programs that could run on any UNIX system, IEEE developed a standard for UNIX, called
       POSIX, that most versions of UNIX now support. POSIX defines a minimal system-call interface that conformant UNIX
       systems must support. In fact, some other operating systems now also support the POSIX interface.
-    credit:
-      Andrew S. Tanenbaum
-    origin:
-      Modern Operating Systems
+    credit: Andrew S. Tanenbaum
+    origin: Modern Operating Systems
 
-  - content:
-      What I cannot create, I do not understand.
-    credit:
-      Richard Feynman
+  - content: What I cannot create, I do not understand.
+    credit: Richard Feynman
     origin:

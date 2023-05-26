@@ -1,7 +1,4 @@
 entries:
-  - content:
-      aaaaaaaaaaa.
-    credit:
-      bbbbbbbbbbb
-    origin:
-      ccccccccccs
+  - content: aaaaaaaaaaa.
+    credit: bbbbbbbbbbb
+    origin: ccccccccccs
