@@ -1,4 +1,4 @@
-baseURL                = "https://foodtooth.github.io/"
+baseURL                = "https://foodtooth.github.io/blog/"
 defaultContentLanguage = "en"
 languageCode           = "en"
 theme                  = "hugo-coder"
@@ -22,103 +22,103 @@ hasCJKLanguage  = true
 googleAnalytics = 'G-E3ZQB3CZ41'
 
 [markup.highlight]
- style = "dracula"
+style = "dracula"
 
 [params]
- author        = "foodtooth"
- avatarurl     = "https://i.imgur.com/sjInPkX.jpg"
- description   = "foodtooth's personal website"
- footercontent = "底线之上"
- info          = ["Dev", "🏸"]
- keywords      = "blog,developer,personal"
+author        = "foodtooth"
+avatarurl     = "https://i.imgur.com/sjInPkX.jpg"
+description   = "foodtooth's personal website"
+footercontent = "底线之上"
+info          = ["Dev", "🏸"]
+keywords      = "blog,developer,personal"
 
- dateformat    = "January 2, 2006"
- enableTwemoji = true
- since         = 2019
+dateformat    = "January 2, 2006"
+enableTwemoji = true
+since         = 2019
 
- hideCopyright = false
- hideCredits   = false
+hideCopyright = false
+hideCredits   = false
 
- # Show the last git commit in the footer
- # commit = "https://github.com/LmeSzinc/StarRailCopilot"
+# Show the last git commit in the footer
+# commit = "https://github.com/LmeSzinc/StarRailCopilot"
 
- rtl = false
- # Specify light/dark colorscheme
- # Supported values:
- # "auto" (use preference set by browser)
- # "dark" (dark background, light foreground)
- # "light" (light background, dark foreground) (default)
- colorScheme = "auto"
- # Hide the toggle button, along with the associated vertical divider
- hideColorSchemeToggle = false
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
 
- # Series see also post count
- maxSeeAlsoItems = 5
+# Series see also post count
+maxSeeAlsoItems = 5
 
- math = true
+math = true
 
- # Custom CSS
- customCSS = []
- # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
- customSCSS = []
- # Custom JS
- customJS = []
- # Custom remote JS files
- customRemoteJS = []
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+# Custom remote JS files
+customRemoteJS = []
 
- # If you want to use Baidu Analytics(https://tongji.baidu.com) for analytics, add this section
- [params.baidu]
-  token = "cd13b2f3ed2b137d334c5f520b1e2be2"
+# If you want to use Baidu Analytics(https://tongji.baidu.com) for analytics, add this section
+[params.baidu]
+token = "5b7067eea0c3286ed27d02d0c8684bb1"
 
 
- [[params.social]]
-  icon   = "fa fa-github fa-2x"
-  name   = "Github"
-  url    = "https://github.com/foodtooth/"
-  weight = 1
- [[params.social]]
-  icon   = "fa fa-twitter fa-2x"
-  name   = "Twitter"
-  url    = "https://twitter.com/foodtooth/"
-  weight = 2
- [[params.social]]
-  icon   = "fa fa-linkedin fa-2x"
-  name   = "LinkedIn"
-  url    = "https://www.linkedin.com/in/xiangdu/"
-  weight = 3
+[[params.social]]
+icon   = "fa fa-github fa-2x"
+name   = "Github"
+url    = "https://github.com/foodtooth/"
+weight = 1
+[[params.social]]
+icon   = "fa fa-twitter fa-2x"
+name   = "Twitter"
+url    = "https://twitter.com/foodtooth/"
+weight = 2
+[[params.social]]
+icon   = "fa fa-linkedin fa-2x"
+name   = "LinkedIn"
+url    = "https://www.linkedin.com/in/xiangdu/"
+weight = 3
 
 
 [taxonomies]
- category = "categories"
- series   = "series"
- tag      = "tags"
+category = "categories"
+series   = "series"
+tag      = "tags"
 
 [languages]
- [languages.en]
-  languageName = ":us:"
-  [[languages.en.menu.main]]
-   name   = "About"
-   url    = "about/"
-   weight = 1
-  [[languages.en.menu.main]]
-   name   = "Blog"
-   url    = "posts/"
-   weight = 2
-  [[languages.en.menu.main]]
-   name   = "Projects"
-   url    = "projects/"
-   weight = 3
+[languages.en]
+languageName = ":us:"
+[[languages.en.menu.main]]
+name   = "About"
+url    = "about/"
+weight = 1
+[[languages.en.menu.main]]
+name   = "Blog"
+url    = "posts/"
+weight = 2
+[[languages.en.menu.main]]
+name   = "Projects"
+url    = "projects/"
+weight = 3
 [languages.zh-cn]
- languageName = ":cn:"
- [[languages.zh-cn.menu.main]]
-  name   = "关于"
-  url    = "zh-cn/about/"
-  weight = 1
- [[languages.zh-cn.menu.main]]
-  name   = "博客"
-  url    = "zh-cn/posts/"
-  weight = 2
- [[languages.zh-cn.menu.main]]
-  name   = "项目"
-  url    = "zh-cn/projects/"
-  weight = 3
+languageName = ":cn:"
+[[languages.zh-cn.menu.main]]
+name   = "关于"
+url    = "zh-cn/about/"
+weight = 1
+[[languages.zh-cn.menu.main]]
+name   = "博客"
+url    = "zh-cn/posts/"
+weight = 2
+[[languages.zh-cn.menu.main]]
+name   = "项目"
+url    = "zh-cn/projects/"
+weight = 3
