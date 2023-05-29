@@ -21,8 +21,10 @@ hasCJKLanguage  = true
 
 googleAnalytics = 'G-E3ZQB3CZ41'
 
+
 [markup.highlight]
 style = "dracula"
+
 
 [params]
 author        = "foodtooth"
@@ -67,9 +69,11 @@ customJS = []
 customRemoteJS = []
 
 # If you want to use Baidu Analytics(https://tongji.baidu.com) for analytics, add this section
-[params.baidu]
-token = "5b7067eea0c3286ed27d02d0c8684bb1"
-
+# [params.baidu]
+# token = "5b7067eea0c3286ed27d02d0c8684bb1"
+# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
+# [params.googleTagManager]
+# id = "G-E3ZQB3CZ41"
 
 [[params.social]]
 icon   = "fa fa-github fa-2x"
@@ -92,6 +96,7 @@ weight = 3
 category = "categories"
 series   = "series"
 tag      = "tags"
+
 
 [languages]
 [languages.en]
